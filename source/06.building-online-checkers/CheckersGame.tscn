@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bugo6lsi34hod"]
 
 [ext_resource type="PackedScene" uid="uid://b8xc43dpux62e" path="res://06.building-online-checkers/CheckerBoard.tscn" id="1_estyv"]
-[ext_resource type="Script" path="res://06.building-online-checkers/CheckersGame.gd" id="1_rs6j7"]
+[ext_resource type="Script" uid="uid://bo0rvxxkprq7b" path="res://06.building-online-checkers/CheckersGame.gd" id="1_rs6j7"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bfts0"]
 bg_color = Color(0.215686, 0.215686, 0.215686, 1)

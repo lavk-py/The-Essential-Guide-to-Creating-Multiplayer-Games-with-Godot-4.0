@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c8kml2j3akt0"]
 
-[ext_resource type="Script" path="res://05.online-quiz/QuizPanel.gd" id="1_45uqs"]
+[ext_resource type="Script" uid="uid://b67nty7aay3jp" path="res://05.online-quiz/QuizPanel.gd" id="1_45uqs"]
 
 [node name="QuizPanel" type="ColorRect"]
 anchors_preset = 8

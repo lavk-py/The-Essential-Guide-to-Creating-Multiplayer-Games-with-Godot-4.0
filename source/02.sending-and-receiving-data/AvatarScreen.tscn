@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ccfqqsn8ks32l"]
 
-[ext_resource type="Script" path="res://02.sending-and-receiving-data/AvatarScreen.gd" id="1_6m28k"]
+[ext_resource type="Script" uid="uid://cicx5cdwgtnpj" path="res://02.sending-and-receiving-data/AvatarScreen.gd" id="1_6m28k"]
 
 [node name="AvatarScreen" type="Control"]
 layout_mode = 3

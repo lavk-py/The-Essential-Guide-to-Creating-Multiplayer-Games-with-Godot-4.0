@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dsy8oy21ff58v"]
 
-[ext_resource type="Script" path="res://05.online-quiz/QuizWaitLabel.gd" id="1_fi36p"]
+[ext_resource type="Script" uid="uid://d14o5vmiiijta" path="res://05.online-quiz/QuizWaitLabel.gd" id="1_fi36p"]
 
 [node name="WaitLabel" type="Label"]
 visible = false

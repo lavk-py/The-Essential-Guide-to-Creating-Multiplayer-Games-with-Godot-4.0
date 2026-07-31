@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://vpe7nrsqe22f"]
 
-[ext_resource type="Script" path="res://04.creating-an-online-chat/ChatClient.gd" id="1_riv0f"]
+[ext_resource type="Script" uid="uid://ctrarpjn2mb65" path="res://04.creating-an-online-chat/ChatClient.gd" id="1_riv0f"]
 [ext_resource type="PackedScene" uid="uid://d01k17u387ahf" path="res://04.creating-an-online-chat/ChatControl.tscn" id="2_ef2pw"]
 
 [node name="Main" type="Control"]

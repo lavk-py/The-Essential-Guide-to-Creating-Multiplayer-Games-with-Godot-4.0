@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://d01tn2bqqn35d"]
 
-[ext_resource type="Script" path="res://09.prototyping-space-adventure/Objects/Weapon/Weapon2D.gd" id="1"]
+[ext_resource type="Script" uid="uid://csq757uopqhmv" path="res://09.prototyping-space-adventure/Objects/Weapon/Weapon2D.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://b2w0487qmw8dn" path="res://09.prototyping-space-adventure/Objects/Weapon/ShotSparkle.svg" id="2"]
 [ext_resource type="PackedScene" uid="uid://cjuj16vhaypvl" path="res://09.prototyping-space-adventure/Objects/Weapon/BulletSpawner2D.tscn" id="2_2qqr4"]
 
@@ -38,8 +38,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_m5mll"]
 _data = {
-"RESET": SubResource("1"),
-"fire": SubResource("2")
+&"RESET": SubResource("1"),
+&"fire": SubResource("2")
 }
 
 [node name="Weapon2D" type="Marker2D"]

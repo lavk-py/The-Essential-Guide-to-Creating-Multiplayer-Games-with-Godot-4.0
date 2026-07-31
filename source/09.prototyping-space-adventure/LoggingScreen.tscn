@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://lm1efw3330du"]
 
-[ext_resource type="Script" path="res://09.prototyping-space-adventure/LoggingScreen.gd" id="1_3kpg8"]
+[ext_resource type="Script" uid="uid://dl88f8ckq31nk" path="res://09.prototyping-space-adventure/LoggingScreen.gd" id="1_3kpg8"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_oymwe"]
 font_color = Color(1, 0.2, 0.2, 1)

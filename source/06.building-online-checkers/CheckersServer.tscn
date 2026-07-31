@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://4wecluinpplh"]
 
-[ext_resource type="Script" path="res://06.building-online-checkers/CheckersServer.gd" id="1_cvkre"]
+[ext_resource type="Script" uid="uid://dvun3ooettcw0" path="res://06.building-online-checkers/CheckersServer.gd" id="1_cvkre"]
 
 [node name="Main" type="Control"]
 layout_mode = 3

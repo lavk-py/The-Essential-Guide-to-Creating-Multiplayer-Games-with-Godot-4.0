@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://rl5p7po2gxju"]
 
-[ext_resource type="Script" path="res://05.online-quiz/QuizLobby.gd" id="1_our2u"]
+[ext_resource type="Script" uid="uid://ca0tfaoeuwaea" path="res://05.online-quiz/QuizLobby.gd" id="1_our2u"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_oymwe"]
 font_color = Color(1, 0.2, 0.2, 1)

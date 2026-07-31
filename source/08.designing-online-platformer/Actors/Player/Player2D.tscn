@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://b6csjxqmlfpn8"]
 
 [ext_resource type="PackedScene" uid="uid://c76mag0uwv68v" path="res://08.designing-online-platformer/Assets/Recipes/BasicMovingCharacter/BasicMovingPlayer2D.tscn" id="1_4amq3"]
-[ext_resource type="Script" path="res://08.designing-online-platformer/Actors/Player/Player2D.gd" id="2_w5e7r"]
+[ext_resource type="Script" uid="uid://c77f1tn51cq7t" path="res://08.designing-online-platformer/Actors/Player/Player2D.gd" id="2_w5e7r"]
 [ext_resource type="SpriteFrames" uid="uid://q6p1hal4oxix" path="res://08.designing-online-platformer/Assets/Kings and Pigs/02-King Pig/KingPigSpriteFrames.tres" id="3_tjmeh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eokwi"]
@@ -10,16 +10,16 @@ size = Vector2(64, 80)
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_0efso"]
 properties/0/path = NodePath(".:position")
 properties/0/spawn = true
-properties/0/sync = true
+properties/0/replication_mode = 1
 properties/1/path = NodePath("Sprites/AnimatedSprite2D:animation")
 properties/1/spawn = true
-properties/1/sync = true
+properties/1/replication_mode = 1
 properties/2/path = NodePath("Sprites/AnimatedSprite2D:frame")
 properties/2/spawn = true
-properties/2/sync = true
+properties/2/replication_mode = 1
 properties/3/path = NodePath("Sprites:scale")
 properties/3/spawn = true
-properties/3/sync = true
+properties/3/replication_mode = 1
 
 [node name="PlayerCharacter2D" instance=ExtResource("1_4amq3")]
 collision_mask = 3

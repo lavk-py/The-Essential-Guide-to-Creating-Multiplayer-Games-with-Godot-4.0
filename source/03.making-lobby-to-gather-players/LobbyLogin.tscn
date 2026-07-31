@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b3nuj6jjx6qym"]
 
-[ext_resource type="Script" path="res://03.making-lobby-to-gather-players/LobbyLogin.gd" id="1_wodtj"]
+[ext_resource type="Script" uid="uid://dny1ibuh5i4kd" path="res://03.making-lobby-to-gather-players/LobbyLogin.gd" id="1_wodtj"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_oymwe"]
 font_color = Color(1, 0.2, 0.2, 1)

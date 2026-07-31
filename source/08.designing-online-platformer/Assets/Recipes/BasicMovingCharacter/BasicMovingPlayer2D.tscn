@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c76mag0uwv68v"]
 
 [ext_resource type="PackedScene" uid="uid://c21v2tcsnb6gs" path="res://08.designing-online-platformer/Assets/Recipes/BasicMovingCharacter/BasicMovingCharacter2D.tscn" id="1_8uds0"]
-[ext_resource type="Script" path="res://08.designing-online-platformer/Assets/Recipes/PassThroughCharacter/PassThroughPlayer2D.gd" id="2_ahoxp"]
+[ext_resource type="Script" uid="uid://c3bbtts08u8e4" path="res://08.designing-online-platformer/Assets/Recipes/PassThroughCharacter/PassThroughPlayer2D.gd" id="2_ahoxp"]
 
 [node name="PlayerCharacter2D" instance=ExtResource("1_8uds0")]
 script = ExtResource("2_ahoxp")

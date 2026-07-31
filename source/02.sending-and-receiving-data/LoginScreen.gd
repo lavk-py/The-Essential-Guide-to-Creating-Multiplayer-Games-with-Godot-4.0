@@ -44,7 +44,9 @@ func _on_LoginButton_pressed():
 
 
 func send_credentials():
-	var message = {'authenticate_credentials': {'user': user_line_edit.text, 'password': password_line_edit.text}}
+	var message = {'authenticate_credentials': 
+		{'user': user_line_edit.text,
+		 'password': password_line_edit.text}}
 	
 	var packet = PacketPeerUDP.new()
 	packet.connect_to_host(ADDRESS, PORT)

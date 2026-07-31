@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bqpj06nn7ioem"]
 
-[ext_resource type="Script" path="res://08.designing-online-platformer/Assets/Recipes/InteractiveArea/InteractiveArea2D.gd" id="1_4s6q6"]
+[ext_resource type="Script" uid="uid://cjaldbqvdb8f7" path="res://08.designing-online-platformer/Assets/Recipes/InteractiveArea/InteractiveArea2D.gd" id="1_4s6q6"]
 
 [node name="InteractiveArea2D" type="Area2D"]
 collision_layer = 0

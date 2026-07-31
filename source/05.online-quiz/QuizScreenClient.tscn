@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://djpwhq57mdf8y"]
 
-[ext_resource type="Script" path="res://05.online-quiz/QuizScreenClient.gd" id="1_gk71t"]
+[ext_resource type="Script" uid="uid://dxdiurgck6khg" path="res://05.online-quiz/QuizScreenClient.gd" id="1_gk71t"]
 [ext_resource type="PackedScene" uid="uid://c8kml2j3akt0" path="res://05.online-quiz/QuizPanel.tscn" id="2_prvlh"]
 [ext_resource type="PackedScene" uid="uid://dsy8oy21ff58v" path="res://05.online-quiz/QuizWaitLabel.tscn" id="3_rq8tv"]
 

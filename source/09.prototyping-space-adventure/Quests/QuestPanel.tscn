@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cv516c45jx5rx"]
 
-[ext_resource type="Script" path="res://09.prototyping-space-adventure/Quests/QuestPanel.gd" id="1_mx87w"]
+[ext_resource type="Script" uid="uid://b7vy6xgo8smwg" path="res://09.prototyping-space-adventure/Quests/QuestPanel.gd" id="1_mx87w"]
 
 [node name="QuestPanel" type="ScrollContainer"]
 offset_left = 932.0

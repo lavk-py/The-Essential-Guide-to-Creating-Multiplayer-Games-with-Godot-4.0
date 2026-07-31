@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://vdftbdwhn531"]
 
-[ext_resource type="Script" path="res://09.prototyping-space-adventure/Recipes/Hazard/HitArea2D.gd" id="1_fcomv"]
+[ext_resource type="Script" uid="uid://cb00q67jevjuv" path="res://09.prototyping-space-adventure/Recipes/Hazard/HitArea2D.gd" id="1_fcomv"]
 
 [node name="HitArea2D" type="Area2D"]
 collision_layer = 0

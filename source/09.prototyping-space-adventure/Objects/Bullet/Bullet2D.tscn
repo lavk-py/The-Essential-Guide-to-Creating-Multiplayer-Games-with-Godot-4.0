@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cql5xqnwibieq"]
 
 [ext_resource type="PackedScene" uid="uid://vdftbdwhn531" path="res://09.prototyping-space-adventure/Recipes/Hazard/HitArea2D.tscn" id="1"]
-[ext_resource type="Script" path="res://09.prototyping-space-adventure/Objects/Bullet/Bullet2D.gd" id="2"]
+[ext_resource type="Script" uid="uid://c5w5mmhmq36w3" path="res://09.prototyping-space-adventure/Objects/Bullet/Bullet2D.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://c0w7ariigwbdk" path="res://09.prototyping-space-adventure/Objects/Bullet/Bullet.svg" id="3"]
 
 [sub_resource type="CapsuleShape2D" id="1"]

@@ -1,11 +1,14 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://b3cuqus1j57dv"]
 
-[ext_resource type="PackedScene" path="res://Recipes/02.pass-through-character/PassThroughCharacter2D.tscn" id="1_xg7e8"]
-[ext_resource type="Script" path="res://02.pass-through-character/recipe/PassThroughPlayer2D.gd" id="2_rdlct"]
+[sub_resource type="Resource" id="Resource_bho22"]
+metadata/__load_path__ = "res://Recipes/02.pass-through-character/PassThroughCharacter2D.tscn"
 
-[node name="PassThroughPlayer2D" instance=ExtResource("1_xg7e8")]
+[sub_resource type="Resource" id="Resource_u8ci7"]
+metadata/__load_path__ = "res://02.pass-through-character/recipe/PassThroughPlayer2D.gd"
+
+[node name="PassThroughPlayer2D"]
 collision_layer = 1
-script = ExtResource("2_rdlct")
+script = SubResource("Resource_u8ci7")
 move_left_action = "move_left"
 move_right_action = "move_right"
 move_down_action = "move_down"

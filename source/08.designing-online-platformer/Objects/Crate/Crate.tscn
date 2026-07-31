@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cqgdeb0m4nj6d"]
 
-[ext_resource type="Script" path="res://08.designing-online-platformer/Objects/Crate/Crate.gd" id="1_c81nv"]
+[ext_resource type="Script" uid="uid://df8yxcrf016ic" path="res://08.designing-online-platformer/Objects/Crate/Crate.gd" id="1_c81nv"]
 [ext_resource type="Texture2D" uid="uid://dln58hdvjoj6q" path="res://08.designing-online-platformer/Assets/Kings and Pigs/08-Box/Idle.png" id="2_566er"]
 [ext_resource type="PackedScene" uid="uid://bqpj06nn7ioem" path="res://08.designing-online-platformer/Assets/Recipes/InteractiveArea/InteractiveArea2D.tscn" id="3_q23of"]
 
@@ -13,7 +13,7 @@ size = Vector2(96, 64)
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_25x3e"]
 properties/0/path = NodePath("CharacterBody2D:position")
 properties/0/spawn = true
-properties/0/sync = true
+properties/0/replication_mode = 1
 
 [node name="Crate" type="Node2D"]
 script = ExtResource("1_c81nv")

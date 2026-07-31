@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cc4j1ngtu0v6u"]
 
-[ext_resource type="Script" path="res://03.making-lobby-to-gather-players/LobbyClient.gd" id="1_lb6fs"]
+[ext_resource type="Script" uid="uid://cc30bgkwqobcn" path="res://03.making-lobby-to-gather-players/LobbyClient.gd" id="1_lb6fs"]
 
 [node name="Main" type="Control"]
 layout_mode = 3

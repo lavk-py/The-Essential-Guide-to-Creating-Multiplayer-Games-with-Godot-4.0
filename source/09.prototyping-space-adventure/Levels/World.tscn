@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://do4pte4ibydbj"]
 
-[ext_resource type="Script" path="res://09.prototyping-space-adventure/Levels/World.gd" id="1_4v41m"]
+[ext_resource type="Script" uid="uid://dx3c5gv2ibjoh" path="res://09.prototyping-space-adventure/Levels/World.gd" id="1_4v41m"]
 [ext_resource type="PackedScene" uid="uid://ctg86xypep676" path="res://09.prototyping-space-adventure/Recipes/Spawner/Spawner2D.tscn" id="2_not0y"]
 [ext_resource type="PackedScene" uid="uid://cv00gxfi4qouw" path="res://09.prototyping-space-adventure/Recipes/Spawner/RadialSpawner2d.tscn" id="2_yodqh"]
 [ext_resource type="PackedScene" uid="uid://ixmsjsthni07" path="res://09.prototyping-space-adventure/Objects/Asteroid/Asteroid.tscn" id="3_c1w0w"]

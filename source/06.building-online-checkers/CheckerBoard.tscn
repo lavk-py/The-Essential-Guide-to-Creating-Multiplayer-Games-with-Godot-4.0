@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://b8xc43dpux62e"]
 
 [ext_resource type="Texture2D" uid="uid://bwx450b3csyrf" path="res://06.building-online-checkers/BoardTiles.svg" id="1_tbpr3"]
-[ext_resource type="Script" path="res://06.building-online-checkers/CheckerBoard.gd" id="2_kvmek"]
+[ext_resource type="Script" uid="uid://dpn3exbh0nc1n" path="res://06.building-online-checkers/CheckerBoard.gd" id="2_kvmek"]
 [ext_resource type="PackedScene" uid="uid://c4j4u4p46c5vo" path="res://06.building-online-checkers/BlackPiece.tscn" id="3_kv0m4"]
 [ext_resource type="PackedScene" uid="uid://c5jm1q16fmoea" path="res://06.building-online-checkers/WhitePiece.tscn" id="4_k1uve"]
 
